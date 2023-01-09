@@ -40,7 +40,8 @@ img {
   max-width: 100%;
   display: block;
 }
-.contenedor {
+/* Le aplica este estilo a toda los los elementos que tengan una clase que finalice con __contenedor */
+[class$="__contenedor"] {
   max-width: 120rem;
   margin: 0 auto;
   width: 90%;
@@ -72,12 +73,6 @@ img {
   .header {
     background-size: 110rem;
   }
-}
-
-.header__contenedor {
-  max-width: 120rem;
-  margin: 0 auto;
-  width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -176,3 +171,49 @@ img {
 
 
 
+/*************** seccion main ****************/
+
+.nucleus {
+  margin-top: 2rem;
+}
+.nucleus__heading{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.nucleus__grid{
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 768px) { 
+  .nucleus__grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5rem;
+    align-items: center;
+  }
+}
+
+.listado__elemento{
+    /*box-shadow: valorDesplazamaneitoEjeX valorDesplazamaneitoEjeY  QueTanBorrosa GruesoDeSombra color*/
+    box-shadow: 0px 0px 15px 3px rgb(0 0 0 / .15);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    transition: transform 0.5s;
+}
+
+.listado__elemento:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.listado__heading{
+  font-size: 3rem;
+  color: var(--primario);
+  margin: 0
+}
+
+.listado__texto{
+  margin: 0;
+  font-size: 2rem;
+}
