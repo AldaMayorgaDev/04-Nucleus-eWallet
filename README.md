@@ -33,11 +33,12 @@ _Las técnologias utilizadas para el desarrollo fueron:_
 
 ## Vista previa del proyecto 👀 
 
-* 👀  [Proyecto]()
+* 👀  [Proyecto](https://aldamayorgadev.github.io/04-Nucleus-eWallet/)
 
 
 ## Reporte de Lighthouse 💡 
 
+<img width="839" alt="Captura de Pantalla 2023-01-09 a la(s) 18 06 18" src="https://user-images.githubusercontent.com/94152243/211432497-08c9fa09-7822-47fa-9185-2beefd6f3e51.png">
 
 
 
